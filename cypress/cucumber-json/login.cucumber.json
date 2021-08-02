@@ -1,0 +1,50 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;el-usuario-se-loguea-correctamente-en-linio",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "El usuario se loguea correctamente en Linio",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "un usuario ingresa a la pagina Linio",
+            "result": {
+              "status": "undefined",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "ingresa \"email\" y \"pass\" correctos",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "se muestra el mensaje de bienvenida",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://www.linio.com.co/",
+    "testFiles": "**/*.feature",
+    "ignoreTestFiles": [ "*.js", "*.ts", "*.md" ],
+    "chromeWebSecurity": false,
+    "viewportWidth": 1400,
+    "viewportHeight": 900,
+    "requestTimeout": 10000,
+    "reporter": "junit",
+    "reporterOptions": {
+      "mochaFile": "results/test-results.xml",
+      "testCaseSwitchClassnameAndName": false
+    },
+    "video": false
+  }

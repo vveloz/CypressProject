@@ -1,0 +1,7 @@
+{
+    "IniciarSesionIcon":".icon icon-padding",
+    "iniciarSesionLbl":"[href='/account/login']",
+    "emailInput": "#login_form_email",
+    "passInput":"#login_form_password"
+
+}
